@@ -20,11 +20,11 @@ public class myHooks {
     @BeforeStep
     public void beforeStep()
     {
-        System.out.println("Before each step");
+        System.out.println("-----Before each step-----");
     }
     @AfterStep
     public void afterStep()
     {
-        System.out.println("After each step");
+        System.out.println("-----After each step-----");
     }
 }
