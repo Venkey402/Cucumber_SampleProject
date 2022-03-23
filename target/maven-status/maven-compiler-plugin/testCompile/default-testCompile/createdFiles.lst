@@ -1,2 +1,3 @@
 myTestRunner\myRunner.class
 stepDefinitions\loginSteps.class
+stepDefinitions\myHooks.class

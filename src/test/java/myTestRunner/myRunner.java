@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/main/resources/Features",
         glue = {"stepDefinitions","myHooks"},
-        tags= "@manual or @regression",
+        tags= "@datadriven",
         publish = true,
         plugin = "pretty"
 )
